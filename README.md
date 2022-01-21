@@ -1,3 +1,15 @@
+This a BLDC controller in Qt C++ Based on Qt 5.15.2
+purpose is to control ZLTECH ZLAC 8015D a dual BLDC motor driver
+Protocol use Modbus RTU
+
+we implement only subset for velocity controller as we use this on Autonomous Mobile Robot
+
+Later on we are going to port the code in to ROS 2 Package
+
+The code is written based on QModbus
+https://github.com/Kefir0192/QModBus
+
+
 # QModBus is wrapper over libmodbus for Qt
 
 
